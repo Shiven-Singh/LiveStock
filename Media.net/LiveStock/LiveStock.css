@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
+
+.preloader_gif {
+    margin-left: 42% !important;
+    margin-top: 20% !important;
+   display: block;
+}
+
+html,
+body {
+     height: 100%;
+     margin: 0;
+     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+     font-family: 'Roboto', sans-serif;
+     font-weight: 100;
+}
+div {
+    overflow: auto;
+    height: 75vh;
+    }
+.green
+      {
+       color:green;
+	  }
+
+.red
+	{
+	color:red;
+	}
+
+
+.arrow{
+   width: 16px !important;
+   height: 16px !important;
+	  }
+			
+
+h1{
+  font-family: 'Rammetto One', cursive !important;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: underline;    
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  margin-left: 10%;    
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+th  {
+    
+    position: static;
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  color: #fff;
+    
+    }
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+         }
+
+td {
+    position: static;
+    
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 780px) {
+
+.preloader_gif {
+    margin-left: 30% !important;
+    margin-top: 40% !important;
+   display: block;
+}
+
+    table {
+  table-layout: fixed;
+  width: 80%;
+  margin-left: 10%;    
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+th  {
+    
+    position: static;
+    padding: 10px 7px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  color: #fff;
+    
+    }
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+         }
+
+td {
+    word-wrap: break-word;
+    padding: 10px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+.arrow{
+   width: 8px !important;
+   height: 8px !important;
+	  }
+
+
+}
+
